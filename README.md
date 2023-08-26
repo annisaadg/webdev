@@ -43,6 +43,9 @@ Mission 1 selesai
 
 ## Identitas
 Dibuat oleh:
+
 Nama    : Annisa Dinda Gantini
+
 NIM     : 211524003
+
 Kelas   : 3A
