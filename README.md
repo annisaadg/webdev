@@ -10,13 +10,13 @@
 
 <a name="informasi-umum"></a>
 ## Informasi Umum
-Dibuat sebagai dokumentasi tugas-tugas mata kuliah Pengembangan Web dan juga sebagai media pengumpulan tugas.
+Dibuat sebagai dokumentasi tugas-tugas mata kuliah Pengembangan Web dan juga sebagai media pengumpulan tugas.__
 
-Jurusan Teknik Komputer dan Informatika
-Prodi D4 Teknik Informatika
-Politeknik Negeri Bandung
+*Jurusan Teknik Komputer dan Informatika*
+*Prodi D4 Teknik Informatika*
+*Politeknik Negeri Bandung*__
 
-Semester V Tahun 2023/2024
+*Semester V Tahun 2023/2024*
 
 <a name="teknologi-yang-dipakai"></a>
 ## Teknologi yang Dipakai
