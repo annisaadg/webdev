@@ -2,11 +2,11 @@
 # Tugas Pengembangan Web
 
 ## Daftar Isi
-- [Informasi Umum](Informasi-Umum)
-- [Teknologi yang Dipakai](teknologi-yang-dipakai)
-- [Penjelasan Tugas/Mission & Penggunaan](penjelasan-tugas/mission-&-penggunaan)
-- [Status](status)
-- [Identitas](identitas)
+- [Informasi Umum](#informasi-umum)
+- [Teknologi yang Dipakai](#teknologi-yang-dipakai)
+- [Penjelasan Tugas/Mission & Penggunaan](#penjelasan-tugas/mission-&-penggunaan)
+- [Status](#status)
+- [Identitas](#identitas)
 
 ## Informasi Umum
 Dibuat sebagai dokumentasi tugas-tugas mata kuliah Pengembangan Web dan juga sebagai media pengumpulan tugas.
