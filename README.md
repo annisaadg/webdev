@@ -10,7 +10,7 @@
 
 <a name="informasi-umum"></a>
 ## Informasi Umum
-Dibuat sebagai dokumentasi tugas-tugas mata kuliah Pengembangan Web dan juga sebagai media pengumpulan tugas.__
+Dibuat sebagai dokumentasi tugas-tugas mata kuliah Pengembangan Web dan juga sebagai media pengumpulan tugas.
 
 *Jurusan Teknik Komputer dan Informatika*
 *Prodi D4 Teknik Informatika*
