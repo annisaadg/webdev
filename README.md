@@ -8,6 +8,7 @@
 - [Status](#status)
 - [Identitas](#identitas)
 
+<a name="informasi-umum"></a>
 ## Informasi Umum
 Dibuat sebagai dokumentasi tugas-tugas mata kuliah Pengembangan Web dan juga sebagai media pengumpulan tugas.
 
@@ -17,12 +18,14 @@ Politeknik Negeri Bandung
 
 Semester V Tahun 2023/2024
 
+<a name="teknologi-yang-dipakai"></a>
 ## Teknologi yang Dipakai
 - HTML
 - CSS
 - PHP
 - MySQL
 
+<a name="penjelasan-tugas/mission-&-penggunaan"></a>
 ## Penjelasan Tugas/Mission & Penggunaan
 ### Mission 1
 - ### Tugas 1
@@ -38,9 +41,11 @@ Semester V Tahun 2023/2024
       - Buka halaman web (index.html) pada server localhost
       - Web bisa digunakan dan terhubung dengan database
 
+<a name="status"></a>
 ## Status
 Mission 1 selesai
 
+<a name="identitas"></a>
 ## Identitas
 Dibuat oleh:
 
