@@ -27,8 +27,8 @@ Semester V Tahun 2023/2024
 ### Mission 1
 - ### Tugas 1
     Membuat tampilan grid dengan CSS dan HTML. Cara penggunaan:
-    1. Buka folder tugas_1
-    2. Buka file index.html
+    1). Buka folder tugas_1
+    2). Buka file index.html
 -  ### Tugas 2
     Membuat web statis dengan menirukan halaman web pada laman https://hackdesign.org/. Disini saya juga menggunakan database untuk menyimpan data email yang diinputkan dari web. Cara Penggunaan:
     1. Jika ingin mengakses web, ini adalah link hasil deploy tugas ini https://webdev-mission1.000webhostapp.com/index.html 
