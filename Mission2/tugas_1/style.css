@@ -75,7 +75,7 @@ header .shopping span{
 .list .item .count{
     margin: 0 10px;
 }
-.card{
+.cart{
     position: fixed;
     top:0;
     left: 100%;
@@ -84,13 +84,13 @@ header .shopping span{
     height: 100vh;
     transition: 1s;
 }
-.active .card{
+.active .cart{
     left: calc(100% - 500px);
 }
 .active .container{
    transform: translateX(-200px);
 }
-.card h1{
+.cart h1{
     color: #ffffff;
     font-weight: 500;
     margin: 0;
@@ -99,14 +99,14 @@ header .shopping span{
     display: flex;
     align-items: center;
 }
-.card .checkOut{
+.cart .checkOut{
     position: absolute;
     bottom: 0;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.card .checkOut div{
+.cart .checkOut div{
     background-color: rgb(167, 167, 167);
     width: 100%;
     height: 70px;
@@ -116,29 +116,29 @@ header .shopping span{
     font-weight: bold;
     cursor: pointer;
 }
-.card .checkOut div:nth-child(2){
+.cart .checkOut div:nth-child(2){
     background-color: #1d1d1d;
     color: #fff;
 }
-.listCard li{
+.listCart li{
     display: grid;
     grid-template-columns: 100px repeat(3, 1fr);
     color: #fff;
     row-gap: 10px;
 }
-.listCard li div{
+.listCart li div{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.listCard li img{
+.listCart li img{
     width: 90%;
 }
-.listCard li button{
+.listCart li button{
     background-color: #fff5;
     border: none;
 }
-.listCard .count{
+.listCart .count{
     margin: 0 10px;
 }
 .bill {

@@ -1,7 +1,7 @@
 let openShopping = document.querySelector('.shopping');
 let closeShopping = document.querySelector('.closeShopping');
 let list = document.querySelector('.list');
-let listCard = document.querySelector('.listCard');
+let listCart = document.querySelector('.listCart');
 let body = document.querySelector('body');
 let total = document.querySelector('.total');
 let quantity = document.querySelector('.quantity');
@@ -42,7 +42,7 @@ let products = [
         price: 1600000
     }
 ];
-let listCards  = [];
+let listCarts  = [];
 function initApp(){
     products.forEach((value, key) =>{
         let newDiv = document.createElement('div');
@@ -51,27 +51,27 @@ function initApp(){
             <img src="image/${value.image}">
             <div class="title">${value.name}</div>
             <div class="price">${value.price.toLocaleString()}</div>
-            <button onclick="addToCard(${key})">Add To Cart</button>`;
+            <button onclick="addToCart(${key})">Add To Cart</button>`;
         list.appendChild(newDiv);
     })
 }
 initApp();
-function addToCard(key){
-    if(listCards[key] == null){
-        // copy product form list to list card
-        listCards[key] = JSON.parse(JSON.stringify(products[key]));
-        listCards[key].quantity = 1;
+function addToCart(key){
+    if(listCarts[key] == null){
+        // copy product form list to list cart
+        listCarts[key] = JSON.parse(JSON.stringify(products[key]));
+        listCarts[key].quantity = 1;
     }
-    reloadCard();
+    reloadCart();
 }
-function reloadCard(){
-    listCard.innerHTML = '';
+function reloadCart(){
+    listCart.innerHTML = '';
     let count = 0;
     let totalPrice = 0;
     let tax = 0;
     let grandtot = 0;
     let grandtot2 = 0;
-    listCards.forEach((value, key)=>{
+    listCarts.forEach((value, key)=>{
         totalPrice = totalPrice + value.price;
         count = count + value.quantity;
         tax = totalPrice * 0.1;
@@ -88,7 +88,7 @@ function reloadCard(){
                     <div class="count">${value.quantity}</div>
                     <button onclick="changeQuantity(${key}, ${value.quantity + 1})">+</button>
                 </div>`;
-                listCard.appendChild(newDiv);
+                listCart.appendChild(newDiv);
         }
     })
     pajak.innerText = tax.toLocaleString();
@@ -99,10 +99,10 @@ function reloadCard(){
 }
 function changeQuantity(key, quantity){
     if(quantity == 0){
-        delete listCards[key];
+        delete listCarts[key];
     }else{
-        listCards[key].quantity = quantity;
-        listCards[key].price = quantity * products[key].price;
+        listCarts[key].quantity = quantity;
+        listCarts[key].price = quantity * products[key].price;
     }
-    reloadCard();
+    reloadCart();
 }
