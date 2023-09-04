@@ -24,12 +24,13 @@ Dibuat sebagai dokumentasi tugas-tugas mata kuliah Pengembangan Web dan juga seb
 - CSS
 - PHP
 - MySQL
+- Javascript
 
 <a name="penjelasan-tugas/mission-&-penggunaan"></a>
 ## Penjelasan Tugas/Mission & Penggunaan
 ### Mission 1
 - ### Tugas 1
-    Membuat tampilan grid dengan CSS dan HTML. Cara penggunaan:
+  Membuat tampilan grid dengan CSS dan HTML. Cara penggunaan:
     - Buka folder tugas_1
     - Buka file index.html
 -  ### Tugas 2
@@ -40,10 +41,22 @@ Dibuat sebagai dokumentasi tugas-tugas mata kuliah Pengembangan Web dan juga seb
       - (Opsional, jika ingin menggunakan database) hubungkan ke database dengan membuat database baru pada phpMyAdmin dengan nama "hackerdesign_db", table name "message", serta 2 columns yaitu "id" sebagai PRIMARY KEY, dan column yang kedua adalah "email" dengan type TEXT
       - Buka halaman web (index.html) pada server localhost
       - Web bisa digunakan dan terhubung dengan database
-
+### Mission 2
+- ### Tugas 1
+  Membuat *page shopping cart* dengan fitur tombol *increment-decrement* jumlah barang, dan juga fitur struk belanja yang menampilkan jumlah belanja yang sudah terhitung pajak. Cara penggunaan:
+  - Buka folder Mission2
+  - Buka folder tugas_1
+  - Buka file index.html
+- ### Tugas 2
+  Membuat game sederhana yang mirip dengan game dinosaurus Chrome. Fitur yang dibuat diantaranya adalah perhitungan score, obstacle berupa cactus, movement berupa melompat dan merunduk, serta bisa reload/restart game dengan meng-klik icon restart. Cara penggunaan:
+  - Buka folder Mission2
+  - Buka folder tugas_2
+  - Buka file index.html
+  
 <a name="status"></a>
 ## Status
-Mission 1 selesai
+Mission 1 selesai <br>
+Mission 2 selesai
 
 <a name="identitas"></a>
 ## Identitas
