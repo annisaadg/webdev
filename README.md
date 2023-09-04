@@ -55,7 +55,7 @@ Dibuat sebagai dokumentasi tugas-tugas mata kuliah Pengembangan Web dan juga seb
   
 <a name="status"></a>
 ## Status
-Mission 1 selesai
+Mission 1 selesai <br>
 Mission 2 selesai
 
 <a name="identitas"></a>
